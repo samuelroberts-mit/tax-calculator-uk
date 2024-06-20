@@ -262,7 +262,7 @@ const Calculator = (grossIncome: number, options: CalculatorOptions) => {
 				tax: 0
 			}
 			rate_12 = {
-				tax: (taxableAmount / 100) * 12
+				tax: (taxableAmount / 100) * 8
 			}
 			rate_2 = {
 				tax: 0
