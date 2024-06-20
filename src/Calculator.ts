@@ -10,7 +10,7 @@ import {
 } from "./Interfaces"
 
 import { getAmountRounded } from "./utils/Rounded"
-import { TAX_SETTINGS } from "./TaxYears/21-22/Settings"
+import { TAX_SETTINGS } from "./TaxYears/24-25/Settings"
 
 const Calculator = (grossIncome: number, options: CalculatorOptions) => {
 	const taxSettings: TaxSettings = TAX_SETTINGS
