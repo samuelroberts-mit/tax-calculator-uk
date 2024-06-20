@@ -238,7 +238,7 @@ const Calculator = (grossIncome: number, options: CalculatorOptions) => {
 		let rate_2: any
 
 		if (higherAmount > 0) {
-			const lower = (middle / 100) * 12
+			const lower = (middle / 100) * 8
 
 			const higher = (higherAmount / 100) * 2
 
